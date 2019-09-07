@@ -1,11 +1,11 @@
 {
-  "name": "react-native-template-rocketseat-advanced",
-  "version": "2.2.1",
+  "name": "react-native-template-longvision",
+  "version": "0.0.1",
   "description": "Template para projetos em React Native, com Estrutura de Pastas customizada, Estilos Globais, ESLint + Prettier + Babel Plugin Root Import, React Navigation, Redux, Redux Saga, Reactotron e Axios configurados.",
   "keywords": [
     "react-native",
     "template",
-    "rocketseat",
+    "longvision",
     "eslint",
     "react-navigation",
     "reactotron",
@@ -16,9 +16,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Rocketseat/react-native-template-rocketseat-advanced.git"
+    "url": "git+https://github.com/longvision/react-native-template-longvision.git"
   },
-  "homepage": "https://github.com/Rocketseat/react-native-template-rocketseat-advanced#readme",
-  "author": "Claudio Orlandi <claudio@rocketseat.com.br>",
+  "homepage": "https://github.com/longvision/react-native-template-longvision.git#readme",
+  "author": "Ricardo Naoki Horiguchi <r.n.hori@gmail.com>",
   "license": "MIT"
 }

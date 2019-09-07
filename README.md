@@ -5,40 +5,37 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
-<!-- PROJECT SHIELDS -->
-
-[![npm](https://img.shields.io/npm/v/react-native-template-rocketseat-advanced.svg?label=npm%20package)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
-[![npm](https://img.shields.io/npm/dt/react-native-template-rocketseat-advanced.svg)](https://www.npmjs.com/package/react-native-template-rocketseat-advanced)
-[![GitHub issues](https://img.shields.io/github/issues-raw/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-advanced/issues)
-[![GitHub last commit](https://img.shields.io/github/last-commit/rocketseat/react-native-template-rocketseat-advanced.svg)](https://github.com/Rocketseat/react-native-template-rocketseat-advanced/commits/master)
-[![NPM](https://img.shields.io/npm/l/react-native-template-rocketseat-advanced.svg)](https://choosealicense.com/licenses/mit)
 
 <!-- PROJECT LOGO -->
 <br />
+<h2 align="center">Template Longvision para App React-Native Advanced</h2>
+<br/>
 <p align="center">
-  <a href="https://rocketseat.com.br">
-    <img src="https://s3-sa-east-1.amazonaws.com/rocketseat-cdn/rocketseat_logo_roxa.png" alt="Logo">
+
+  <a href="https://github.com/longvision">
+    <img src="https://longvision.s3.amazonaws.com/Captura+de+Tela+2019-09-07+a%CC%80s+02.02.22.png" alt="Logo">
   </a>
 
-  <h3 align="center">Template Rocketseat Advanced</h3>
+
+
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## Tabela de Conteúdo
 
-- [Tabela de Conteúdo](#tabela-de-conte%C3%BAdo)
+- [Tabela de Conteúdo](#tabela-de-conte%c3%bado)
 - [Sobre o Projeto](#sobre-o-projeto)
   - [Feito Com](#feito-com)
-- [Começando](#come%C3%A7ando)
-  - [Pré-requisitos](#pr%C3%A9-requisitos)
+- [Começando](#come%c3%a7ando)
+  - [Pré-requisitos](#pr%c3%a9-requisitos)
   - [Estrutura de Arquivos](#estrutura-de-arquivos)
-  - [Instalação](#instala%C3%A7%C3%A3o)
+  - [Instalação](#instala%c3%a7%c3%a3o)
     - [Passo Adicional no Android](#passo-adicional-no-android)
-  - [Edição](#edi%C3%A7%C3%A3o)
-  - [Publicação](#publica%C3%A7%C3%A3o)
-- [Contribuição](#contribui%C3%A7%C3%A3o)
-- [Licença](#licen%C3%A7a)
+  - [Edição](#edi%c3%a7%c3%a3o)
+  - [Publicação](#publica%c3%a7%c3%a3o)
+- [Contribuição](#contribui%c3%a7%c3%a3o)
+- [Licença](#licen%c3%a7a)
 - [Contato](#contato)
 
 <!-- ABOUT THE PROJECT -->
@@ -95,13 +92,11 @@ Antes de seguirmos para as configurações e uso do template, é ideal que você
 A estrutura de arquivos está da seguinte maneira:
 
 ```bash
-rocketseat-advanced
+longvision
 ├── src/
 │   ├── config/
 │   │   └── ReactotronConfig.js
-│   ├── images/
-│   │   ├── rocketseat_logo_roxa.png
-│   │   └── rocketseat_logo.png
+│   ├──
 │   ├── pages/
 │   │   └── Main/
 │   │       └── index.js
@@ -135,7 +130,7 @@ Serão explicados os arquivos e diretórios na seção de [Edição](#edição).
 1. Para instalar e utilizar esse template o processo é bem simples, basta criar um projeto novo utilizando o comando:
 
 ```sh
-react-native init AwesomeExample --template rocketseat-advanced
+react-native init AwesomeExample --template longvision
 ```
 
 2. Depois do projeto criado você pode deletar o arquivo `App.js` da raiz, pois o arquivo `index.js` agora aponta para a pasta **src**.
@@ -278,4 +273,4 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 
 ## Contato
 
-Rocketseat - [Github](https://github.com/rocketseat) - **oi@rocketseat.com.br**
+Longvision - [Github](https://github.com/longvision) - **r.n.hori@gmail.com**
