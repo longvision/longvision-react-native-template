@@ -7,4 +7,4 @@ deploy:
     secure: $API_KEY
   on:
     tags: true
-    repo: lon/react-native-template-rocketseat-advanced
+    repo: longvision/react-native-template-longvision
