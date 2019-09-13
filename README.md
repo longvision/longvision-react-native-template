@@ -5,7 +5,6 @@
 *** Obrigado novamente! Agora vamos rodar esse projeto incrível :D
 -->
 
-
 <!-- PROJECT LOGO -->
 <br />
 <h2 align="center">Template Longvision para App React-Native Advanced</h2>
@@ -16,8 +15,6 @@
     <img src="https://longvision.s3.amazonaws.com/Captura+de+Tela+2019-09-07+a%CC%80s+02.02.22.png" alt="Logo">
   </a>
 
-
-
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -27,6 +24,7 @@
 - [Tabela de Conteúdo](#tabela-de-conte%c3%bado)
 - [Sobre o Projeto](#sobre-o-projeto)
   - [Feito Com](#feito-com)
+- [Configurando o Jest](#configurando-o-jest)
 - [Começando](#come%c3%a7ando)
   - [Pré-requisitos](#pr%c3%a9-requisitos)
   - [Estrutura de Arquivos](#estrutura-de-arquivos)
@@ -74,6 +72,28 @@ Abaixo segue o que foi utilizado na criação deste template:
   - [eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier) - Roda o Prettier como uma regra do ESLint;
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) - Desativa todas as regras que são desnecessárias ou que podem dar conflito com o Prettier;
 - [EditorConfig](https://editorconfig.org/) - O EditorConfig é um formatador de arquivos e coleções em forma de Plugin para Editores de código/texto com o objetivo de manter um padrão de código consistente entre diferentes editores, IDE's ou ambientes;
+
+## Configurando o Jest
+
+Colar o código abaixo no package.json após pronto.
+instalar a dependencia: `npm install @testing-library/react-native -D`
+
+```
+  "jest": {
+    "preset": "@testing-library/react-native",
+    "testMatch": [
+      "**/__tests__/**/*.test.js"
+    ],
+    "collectCoverageFrom": [
+      "!src/service/api.js"
+    ],
+    "coverageDirectory": "__tests__/coverage",
+    "moduleNameMapper": {
+      "^~/(.*)": "<rootDir>/src/$1"
+    }
+  }
+}
+```
 
 <!-- GETTING STARTED -->
 
